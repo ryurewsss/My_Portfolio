@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  
+  base: '/My_Portfolio/', // <--- ตรงนี้สำคัญมาก! เปลี่ยน 'Portfolio' เป็นชื่อ Repository ของคุณ
 })
